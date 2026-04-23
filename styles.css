@@ -1,0 +1,159 @@
+/* تعديلات عامة */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    font: 16px Arial, sans-serif;
+}
+/* تعديلات الراس */
+#head{
+    color: white;
+    background-color: rgb(18, 17, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    text-align: left;
+    position: relative; 
+}
+
+#head h2{
+    position: absolute;
+    left: 50px;
+    font-family: 'algerian', serif;
+    font-size: 30px;
+    padding: 0;
+    display: left;
+}
+#head ul{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center; 
+}
+#head ul li a{
+    text-decoration: none;
+    color: rgb(253, 249, 249);
+    font-weight: bold;
+}
+#head ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+#head ul li a:hover{
+    color: rgb(246, 85, 203);
+    font-family: 'algerian', serif;
+    padding: 5px;
+    border: 2px solid rgb(246, 85, 203);
+    border-radius: 10px;
+}
+/* الواجهة الامامية للصفحة */
+#home {
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+    text-align: center;
+    position: relative;
+}
+#home {
+    height: 300px;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("img/image2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: fixed;
+}
+#home h1{
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(18, 18, 17);
+    text-shadow: 2px 2px 5px rgb(229, 219, 219);
+}
+#home p{
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(244, 244, 238);
+    text-shadow: 2px 2px 5px rgb(13, 13, 13);
+}
+/* تعديلات قسم انواع الطعام */
+#type-food h2{
+    text-align: center;
+    color: rgb(246, 243, 243);
+    font-size: 40px;
+    /* text-shadow: 2px 2px 5px rgb(229, 219, 219); */
+    background-color:rgb(30, 27, 27);
+   padding: 25px;
+   margin: 0;
+}
+#type-food ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    text-align: center;
+    text-align: left;
+    flex-direction: column;
+    list-style: none;
+}
+#type-food ul li{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+#type-food-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 30px; */
+    text-align: center;
+    text-align: left;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("img/image1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: fixed;
+}
+#l1, #l2, #l3, #l4{
+    padding: 5px;
+    margin-bottom: 2px;
+    background-color: rgba(65, 63, 63, 0.5);
+    background-size: 100% 100%;
+    width: 700%;
+    text-align: center;
+    
+}
+#type-food ul li a{
+    text-decoration: none;
+    color: rgb(18, 17, 17);
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+#type-food ul li a:hover{
+    color: rgb(246, 243, 243);
+    font-family: 'algerian', serif;
+    padding: 5px;
+    /* border: 2px solid rgb(246, 243, 243);
+    border-radius: 10px; */
+    background-color: black;
+}
+#l1:hover #a1, #l2:hover #a2, #l3:hover #a3, #l4:hover #a4{
+   color: rgb(246, 243, 243);
+   font-family: 'algerian', serif;
+   padding: 5px;
+   /* border: 2px solid rgb(246, 243, 243);
+   border-radius: 10px; */
+   background-color: black;
+}
+ #l1:hover, #l2:hover, #l3:hover, #l4:hover{
+    background-color: black;
+}
+/* الجزء الثاني الانواع الخاصة بالمأكولات */
